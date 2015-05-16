@@ -1,0 +1,18 @@
+  map.setTileSource(new XYTileSource("MapQuest",
+                ResourceProxy.string.mapquest_osm, 0, 18, 256, ".jpg", new String[]{
+                "http://otile1.mqcdn.com/tiles/1.0.0/map/",
+                "http://otile2.mqcdn.com/tiles/1.0.0/map/",
+                "http://otile3.mqcdn.com/tiles/1.0.0/map/",
+                "http://otile4.mqcdn.com/tiles/1.0.0/map/"}));
+        map.setBuiltInZoomControls(true);
+        map.setMultiTouchControls(true);
+        map.setUseDataConnection(false);
+        BoundingBoxE6 bbox = new BoundingBoxE6(23.145411, 113.307495, 23.11005, 113.345945);
+
+        map.setScrollableAreaLimit(bbox);
+        IMapController mapController = map.getController();
+        mapController.setZoom(15);
+
+        mapController.animateTo(new GeoPoint(23.130257, 113.323975));
+
+        mapController.setCenter(BERLIN);
