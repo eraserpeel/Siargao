@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidProjects\Siargao2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-9557db9f9fe742865783e80aaab5132aa249a4f2.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\Siargao2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\classes-f9aa8f1d0e53ef6352c55b7519b1b177bdd5922b.jar" />
+    </item>
+    <item
+        jar="C:\Users\blipped\.gradle\caches\modules-2\files-2.1\org.osmdroid\osmdroid-android\4.2\f3a0c73a9ed04a5d0959789c53da9f08462bfcc2\osmdroid-android-4.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3a0c73a9ed04a5d0959789c53da9f08462bfcc2">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\osmdroid-android-4.2-081c6d311d70d577802aa059bedd925a7c64f2db.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\Siargao2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\classes-1fdb2d3311a621c6e75e250f4eebb778e1944ff5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-151d36168ce1d52dfaa41de220a70136c8116903.jar" />
+    </item>
+    <item
+        jar="C:\Users\blipped\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.6.1\58e59bfb3e247097b8122243b3bfe0049c8cfae8\slf4j-simple-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\slf4j-simple-1.6.1-752c17469270a63ec2258da4483b49488cd9b8f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\blipped\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex dex="E:\AndroidProjects\Siargao2\app\build\intermediates\pre-dexed\debug\slf4j-api-1.6.1-5bb0b6f95ce420ed0ea8b25ebb5c07472b3e4b61.jar" />
+    </item>
+
+</items>
