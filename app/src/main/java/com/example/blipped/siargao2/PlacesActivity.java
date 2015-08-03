@@ -19,20 +19,15 @@ public class PlacesActivity extends Activity {
     }
 
     private void loadDatabase() {
-        Log.d("Penis", "Here");
         try {
             DatabaseHandler dbOpenHelper = new DatabaseHandler(this.getBaseContext(), "siargao");
             SQLiteDatabase placeDB = dbOpenHelper.openDataBase();
             String query = "SELECT * FROM place where _id=1";
             Cursor cursor = placeDB.rawQuery(query, null);
             cursor.moveToFirst();
-            Log.d("Penis", cursor.getString(0));
-            Log.d("Penis", cursor.getString(1));
-            Log.d("Penis", cursor.getString(2));
-            Log.d("Penis", "asdfasdfasdfas324asd");
         }
         catch(Exception e) {
-            Log.d("Penis", e.toString());
+            //Log
         }
 
     }

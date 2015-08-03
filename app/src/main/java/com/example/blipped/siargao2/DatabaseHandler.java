@@ -26,14 +26,12 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     public DatabaseHandler(Context context, String databaseName) {
         super(context, databaseName, null, 1);
-        Log.d("Penis","FUC!123212312");
         this.context = context;
         if (android.os.Build.VERSION.SDK_INT >= 17) {
             DB_PATH = context.getApplicationInfo().dataDir + "/databases/";
         } else {
             DB_PATH = "/data/data/" + context.getPackageName() + "/databases/";
         }
-        Log.d("Penis","FUC!");
         DB_NAME = databaseName;
 
     }
